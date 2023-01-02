@@ -6,8 +6,9 @@ int main() {
 	
 	
 	for (i = 1; i <= 50; i ++){
+		sum += ((2*i) - 1) / i;
 		printf("%.0f/%.0f \n", (2*i) - 1, i);
-		sum += i/ (i + 1);
+		
 	}
 	
 	printf("\n");
